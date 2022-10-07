@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Beauty and the Beast</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"   
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" 
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <style>
+        h1 {
+           color: green;
+           font-family:Cambria;
+           padding: 5px;
+           margin-bottom: 10px;
+        }
+        .menu {
+            background-color: pink;
+            padding: 4px;
+            text-align: center;
+        }
+        .menu-item {
+            font-family:Verdana;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        .menu-item:hover {
+            background-color: blue;
+            color: #367E18;
+        }
+        .search {
+            background-color: burlywood;
+        }
+        .check {
+            background-color: purple;
+        }
+        .score {
+            background-color: aqua;
+        }
+        .help {
+            background-color: yellowgreen;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Part 2 -->
+    <h1>Treasure hunt by Swarna</h>
+    <div class="row menu">
+        <div class="col-sm menu-item search">
+            Click on the chests to search for treasure
+        </div>
+        <div id="chests" class="col-sm menu-item check">
+            Number of chests checked is zero
+        </div>
+        <div id="score" class="col-sm menu-item score">
+            Score is unknown
+        </div>
+        <div id="help" class="col-sm menu-item help">
+            Help report
+        </div>
+    </div>
+    <!-- Part 3 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="help.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+            <div class="col-sm">
+                <img src="closed.jpg" alt="Treasure Chest" width="140" height="140">
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+</body>
+</html>
